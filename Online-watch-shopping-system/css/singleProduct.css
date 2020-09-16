@@ -1,7 +1,8 @@
 .gallery-wrap .img-big-wrap img {
-    height: 450px;
-    width: 456px;
+    height: 100%;
+    width: 100%;
     padding: 8px;
+    padding-top: 20px;
     display: inline-block;
     overflow: hidden;
     cursor: zoom-in;
@@ -11,6 +12,7 @@
 .gallery-wrap .img-small-wrap .item-gallery {
     width: 100px;
     height: 100px;
+    
     border: 1px solid #ddd;
     display: inline-block;
     overflow: hidden;
@@ -18,7 +20,6 @@
 
 .gallery-wrap .img-small-wrap {
     /* margin-left: -13px; */
-    padding-left: 15px;
     padding-top: 20px;
     text-align:center;
 }
@@ -34,5 +35,4 @@
 .products .container{
     border-radius: 5px;
   box-shadow: 1px 1px 5px 1px #888888;
-  box-
 }
